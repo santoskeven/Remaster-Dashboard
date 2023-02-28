@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.MainLeft{
+    background-color: #141414;
+    height: 100vh;
+    width: 30%;
+    max-width: 300px;
+    min-width: 300px;
+    padding: 1% 0;
+}
+
+.top_user{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top_user img{
+    height: 129.14px;
+    width: 129.14px;
+    border-radius: 50%;
+}
+
+.top_user p{
+    font-size: 20px;
+    color: #F5F5F5;
+    margin: 15px 0 10px 0;
+}
+
+.top_user span{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #8F8F8F;
+    margin-bottom: 20px;
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    height: calc(100% - 190px);
+    color: white;
+    overflow-y: auto ;
+}
+
+.navegacao a{
+    display: flex;
+    height: 35px;
+    padding: 0px 0 0px 15px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navegacao a:hover{
+    background-color: #292929;
+}
+
+.box_line{
+    position: relative;
+    z-index: 2;
+    /* display: flex; */
+    width: 100%;
+    background-color: #141414;
+}
+
+.box_line h2{
+    position: relative;
+    z-index: 1;
+    width: max-content;
+    /* padding-right: 8px; */
+    background-color: #141414;
+    color: #B3E81B;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 8px 8px 2px 15px;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.TitleLine{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);    
+    /* transform: translateY(-50%); */
+    width: 100%;
+    height: 2px;
+    background-color: #525252;
+}
+
+
+.MainRight{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #141414; */
+}
+
+.headerR{
+    padding: 14px 2%;
+    background-color: #141414;
+    display: flex;
+    justify-content: space-between;
+}
+
+.atalhos{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_main{
+    background-color: #292929;
+    height: 100%;
+    padding: 4%;
+}
+
+section > h2{
+    color: #EEF1E4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.StatRow{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 40px 0;
+}
+
+.StatusSingle{
+    background-color: #000000;
+    width: calc(100% / 3 - 30px);
+    height: 100px;
+    padding:0 2%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+    
+}
+
+.deco{
+    position: absolute;
+    background-color: #B3E81B;
+    width: 4px;
+    height: 22px;
+    top: 16px;
+    border-radius: 5px;
+    left: -4px;
+}
+
+.StatusSingle p:nth-of-type(1){
+    color: #E0E0E0;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.StatusSingle p:nth-of-type(2){
+    color: white;
+    font-size: 22px;
+}
+
+.users_row{
+    width: 100%;
+    display: flex;
+}
+
+.colo_user{
+    border-radius: 5px;
+    background-color: #000000;
+    margin: 30px 0 40px 0;
+}
+
+.scroll{
+    /* overflow-y: auto; */
+    height: 100%;
+}
+
+.statusHome{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    /* background-color: #000000; */
+    color: #E0E0E0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #141414;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.single_user{
+    /* background-color: #000000; */
+    width: 50%;
+    /* border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.banda{
+    width: 50%;
+    text-align: center;
+}
+
+.banda_s{
+    text-align: center;
+    color: #B8B8B8;
+    padding: 8px 0;
+    font-size: 16px;
+}
+
